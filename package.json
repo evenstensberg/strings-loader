@@ -1,5 +1,5 @@
 {
-  "name": "strings-loader",
+  "name": "@ev1stensberg/strings-loader",
   "version": "1.0.0",
   "description": "A webpack loader that takes in a module string and console.logs its content.",
   "main": "src/index.js",
