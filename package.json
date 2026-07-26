@@ -1,0 +1,31 @@
+{
+  "name": "strings-loader",
+  "version": "1.0.0",
+  "description": "A webpack loader that takes in a module string and console.logs its content.",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "webpack",
+    "loader",
+    "webpack-loader",
+    "console",
+    "log",
+    "debug"
+  ],
+  "scripts": {
+    "example": "webpack --config example/webpack.config.js"
+  },
+  "peerDependencies": {
+    "webpack": "^4.0.0 || ^5.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@ev1stensberg/strings-js": "^1.0.0"
+  }
+}
